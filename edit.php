@@ -40,14 +40,15 @@
             <input name="price" value="<?php echo $product['price'] ?>" type="number" class="form-control" required>
         </div>
 
-        <div class="col-md-6">
-            <label class="form-label">Image</label>
-            <input name="image" value="<?php echo $product['image'] ?>" type="text" class="form-control" required>
-        </div>
 
-               <div class="col-md-6">
+         <div class="col-md-6">
             <label class="form-label">created_at</label>
             <input name="created_at" value="<?php echo $product['created_at'] ?>" type="number" class="form-control" required>
+        </div>
+
+           <div class="col-md-6">
+            <label class="form-label">Image</label>
+            <input name="image" value="<?php echo $product['image'] ?>" type="text" class="form-control" required>
         </div>
 
 
