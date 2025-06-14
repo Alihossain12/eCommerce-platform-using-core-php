@@ -12,7 +12,7 @@
     <?php
         $sql = "SELECT * FROM `product` WHERE status != 0";
         // $sql    = "SELECT product.*, categories.name AS category_name FROM `product` JOIN categories ON product.category = categories.id  WHERE status != 0";
-        $sql = "SELECT * FROM `product`";
+        //$sql = "SELECT * FROM `product`";
         $result = mysqli_query($connection, $sql);
         $data = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
