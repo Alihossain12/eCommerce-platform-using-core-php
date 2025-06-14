@@ -48,7 +48,7 @@
 
            <div class="col-md-6">
             <label class="form-label">Image</label>
-            <input name="image" value="<?php echo $product['image'] ?>" type="text" class="form-control" required>
+            <input name="image" value="<?php echo $product['image'] ?>" type="file" class="form-control" required>
         </div>
 
 
